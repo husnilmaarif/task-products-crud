@@ -1,8 +1,11 @@
+// LIBRARIES
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// ROUTING & PAGES
 import Navigation from "./components/Navigation";
 import Edit from "./pages/Edit";
 import Home from "./pages/Home";
 import Tambah from "./pages/Tambah";
+// ===============
 
 const App = () => {
   return (
