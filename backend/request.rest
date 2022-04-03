@@ -1,0 +1,23 @@
+GET http://localhost:3000/product
+
+###
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+        "name" :"laptop acer",
+        "price": 12000000
+}
+
+###
+# PATCH  http://localhost:3000/product/62419089bdcea188fc409b32
+# Content-Type: application/json
+
+# {
+#         "name" :"laptop acer",
+#         "price": 12000000
+
+# }
+
+###
+# DELETE http://localhost:3000/product/62419089bdcea188fc409b32
